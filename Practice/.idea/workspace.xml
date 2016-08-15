@@ -20,11 +20,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="range.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="range.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/range.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -72,6 +82,7 @@
         <option value="$PROJECT_DIR$/comments.py" />
         <option value="$PROJECT_DIR$/magicnumber.py" />
         <option value="$PROJECT_DIR$/Continue.py" />
+        <option value="$PROJECT_DIR$/functions.py" />
       </list>
     </option>
   </component>
@@ -141,24 +152,7 @@
       <recent name="C:\Users\Johannes\Desktop\Python-Practices\Practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Continue">
-    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Practice" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.functions">
     <configuration default="false" name="range" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,6 +217,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Practice" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Continue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Practice" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -362,19 +373,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.range" />
-      <item index="2" class="java.lang.String" itemvalue="Python.while" />
-      <item index="3" class="java.lang.String" itemvalue="Python.magicnumber" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Continue" />
+      <item index="0" class="java.lang.String" itemvalue="Python.range" />
+      <item index="1" class="java.lang.String" itemvalue="Python.while" />
+      <item index="2" class="java.lang.String" itemvalue="Python.magicnumber" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Continue" />
+      <item index="4" class="java.lang.String" itemvalue="Python.functions" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Continue" />
-        <item index="1" class="java.lang.String" itemvalue="Python.magicnumber" />
-        <item index="2" class="java.lang.String" itemvalue="Python.while" />
-        <item index="3" class="java.lang.String" itemvalue="Python.range" />
-        <item index="4" class="java.lang.String" itemvalue="Python.main" />
+        <item index="0" class="java.lang.String" itemvalue="Python.functions" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Continue" />
+        <item index="2" class="java.lang.String" itemvalue="Python.magicnumber" />
+        <item index="3" class="java.lang.String" itemvalue="Python.while" />
+        <item index="4" class="java.lang.String" itemvalue="Python.range" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +406,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -542,6 +553,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding />
         </state>
       </provider>
