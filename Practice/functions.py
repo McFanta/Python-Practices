@@ -1,3 +1,5 @@
+# This program is using functions to make a simple list of numbers
+
 def one():
     print("1")
 one()
