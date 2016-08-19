@@ -4,5 +4,5 @@ def girls_you_can_date():
     guy = "Johannes"
     girl = "Sophie!"
 
-    print(guy, "can date", girl,)
+    print(guy, "can date", girl)
 girls_you_can_date()
