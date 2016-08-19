@@ -3,6 +3,9 @@
 def girls_you_can_date():
     guy = "Johannes"
     girl = "Sophie!"
-
-    print(guy, "can date", girl)
+    date = girl
+    if date is girl:
+       print(guy, "can date", girl)
+    else:
+        print("Sorry you don't have any girls to date!")
 girls_you_can_date()
