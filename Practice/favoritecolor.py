@@ -6,5 +6,4 @@ def your_favorite_color(color='green!'):
             print("Your favorite color is", color)
     else:
         print("You don't have a favorite color!")
-
 your_favorite_color()
