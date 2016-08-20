@@ -1,3 +1,5 @@
+# A simple program that displays a gender
+
 def get_gender(sex='Unknown'):
     if sex is 'm':
         sex = "Male"
