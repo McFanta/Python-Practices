@@ -1,4 +1,4 @@
-# A basic program I made to learn and understand variable scopes
+# A basic program that I made to learn and understand variable scopes
 
 a = 7823
 
