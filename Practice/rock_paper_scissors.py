@@ -1,13 +1,13 @@
 # A fun little game that I made for fun and to be more familiar with more functions
 
-def rock_scissors_paper():
-    action = 'Welcome to rock, scissors and paper!'
+def rock_paper_scissors():
+    action = 'Welcome to rock, paper and scissors!'
     print action
-rock_scissors_paper()
+rock_paper_scissors()
 
 def match_info():
     print("This match is between Johannes and Gary. Wish them luck!")
-    print("You guys can use a rock, a scissor and a paper")
+    print("You guys can use a rock, a paper and a scissor")
 match_info()
 
 def game_event():
