@@ -6,26 +6,17 @@ def rock_paper_scissors():
 rock_paper_scissors()
 
 def match_info():
-    print("This match is between Johannes and Gary. Wish them luck!")
-    print("You guys can use a rock, a paper and a scissor")
+    print("This match is between You and the computer.")
+    print("You can use a rock, a paper and a scissor")
+    print("Good Luck!")
 match_info()
 
 def game_event():
-    my_name = 'Johannes'
-    action = 'used'
-    my_item = 'Scissor'
-    enemy_name = 'Gary'
-    action = 'used'
-    enemy_item = 'paper'
-    if my_item is 'Scissor':
-        print my_name, action, my_item
-    if enemy_item is 'paper':
-        print enemy_name, action, enemy_item
+    action = raw_input("Rock, paper, Scissors ")
 game_event()
 
-def final_action(winner = 'Johannes'):
-    if winner is 'Johannes':
-        print winner, "won the match!"
-    elif winner is 'Unknown':
-        print("Tie between Johannes and Gary!")
-final_action()
+def final_event():
+    import random
+    foo = ['You Won!', 'The computer Won!', 'Tie Between Johannes and the computer!']
+    print(random.choice(foo))
+final_event()
