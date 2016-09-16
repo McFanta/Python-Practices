@@ -1,9 +1,10 @@
-# A program that tells you what starter pokèmon you have chosen
+# A program that tells you what starter pokemon you have chosen
 
-def your_starter_pokèmon():
-    pokèmon = "Squirtle!"
-    if pokèmon is 'Squirtle!':
-        print("Your starter pokèmon is", pokèmon)
-    elif pokèmon is 'Unknown':
-        print("You don't have any starter pokèmons!")
-your_starter_pokèmon()
+def your_starter_pokemon():
+       pokemon = "Squirtle!"
+       if pokemon is 'Squirtle!':
+           print "Your starter pokemon is", pokemon
+       elif pokemon is 'Unknown':
+        print "You don't have any starter pokemons!"
+your_starter_pokemon()
+
