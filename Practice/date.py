@@ -1,11 +1,12 @@
-# A funny program that tells you who you can date
+# A funny program that tells you who I can date
 
-def girls_you_can_date():
+def girls_I_can_date():
+    import random
+    girls = ['Camilla', 'Sara', 'Sofie', 'Sophie', 'Marielle']
     guy = "Johannes"
-    girl = "Sophie!"
-    date = girl
-    if date is girl:
-       print(guy, "can date", girl)
+    date = girls
+    if date is girls:
+       print guy, "can date", random.choice(girls)
     else:
         print("Sorry you don't have any girls to date!")
-girls_you_can_date()
+girls_I_can_date()
