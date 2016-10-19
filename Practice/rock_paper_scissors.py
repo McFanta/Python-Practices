@@ -2,21 +2,21 @@
 
 def rock_paper_scissors():
     action = 'Welcome to rock, paper and scissors!'
-    print action
+    print(action)
 rock_paper_scissors()
 
 def match_info():
-    print("This match is between You and the computer.")
+    print("This match is between you and the computer.")
     print("You can use a rock, a paper and a scissor")
     print("Good Luck!")
 match_info()
 
 def game_event():
-    action = raw_input("Rock, paper, Scissors ")
+    input("Rock, paper, scissors ")
 game_event()
 
 def final_event():
     import random
-    foo = ['You Won!', 'The computer Won!', 'Tie Between Johannes and the computer!']
+    foo = ['You won!', 'The computer Won!', 'Tie Between you and the computer!']
     print(random.choice(foo))
 final_event()

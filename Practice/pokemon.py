@@ -5,7 +5,7 @@ def your_starter_pokemon():
     pokemons = ['Bulbasaur!', 'Squirtle!', 'Charmander!']
     pokemon = pokemons
     if pokemon is pokemons:
-           print "Your starter pokemon is", random.choice(pokemons)
+           print("Your starter pokemon is", random.choice(pokemons))
     elif pokemon is 'Unknown':
-        print "You don't have any starter pokemons!"
+        print("You don't have any starter pokemons!")
 your_starter_pokemon()
